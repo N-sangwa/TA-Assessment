@@ -4,11 +4,12 @@ fun main() {
     println(x)
     details("Nadine",23)
     money("Dollars")
+    names("Nadine","Sharon")
 
 }
 
 fun word(name:String){
-    println(name[4].toString()+name[5]+name[6]+name[7])
+    println(name[3].toString()+name[5]+name[6]+name[7])
 }
 fun numbers(a:Int,b:Int):Int{
     var remainder= a%b
@@ -23,4 +24,8 @@ fun details(p:String,z:Int){
 fun money(name:String){
     var y = name.length
     println(y)
+}
+fun names(e:String){
+    println e.length
+
 }
