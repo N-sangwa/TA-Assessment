@@ -4,6 +4,7 @@ fun main() {
     println(x)
     details("Nadine",23)
     money("Dollars")
+    names("Nadine","Sharon")
 
 }
 
@@ -23,4 +24,8 @@ fun details(p:String,z:Int){
 fun money(name:String){
     var y = name.length
     println(y)
+}
+fun names(e:String){
+    println e.length
+
 }
