@@ -9,7 +9,7 @@ fun main() {
 }
 
 fun word(name:String){
-    println(name[4].toString()+name[5]+name[6]+name[7])
+    println(name[3].toString()+name[5]+name[6]+name[7])
 }
 fun numbers(a:Int,b:Int):Int{
     var remainder= a%b
